@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Hospital Dr. Sano | Cuidado y Excelencia</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN RESPONSIVE -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-2">
+        <div class="container">
+            <a class="navbar-brand text-primary fw-bold" href="#">
+                <i class="bi bi-heart-pulse-fill me-2"></i>Dr. Sano
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#medicos">Médicos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reseñas">Reseñas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promociones">Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reservas">Reservas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / INICIO -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <h1 class="display-4 fw-bold text-dark">Bienvenido al <span class="text-primary">Hospital Dr.
+                            Sano</span></h1>
+                    <p class="lead text-secondary">Excelencia médica, cuidado humano y tecnología de vanguardia para tu
+                        bienestar. Más de 30 años transformando vidas.</p>
+                    <a href="#reservas" class="btn btn-primary btn-primary-custom mt-2"><i
+                            class="bi bi-calendar-check"></i> Reserva tu cita</a>
+                    <a href="#servicios" class="btn btn-outline-primary rounded-pill ms-2 mt-2">Conoce más</a>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <i class="bi bi-hospital display-1 text-primary opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mb-5">
+        <!-- SERVICIOS -->
+        <section id="servicios" class="my-5 pt-4">
+            <div class="text-center text-md-start">
+                <h2 class="section-title">Servicios que ofrecemos</h2>
+                <p class="text-secondary mb-4">Atención integral con múltiples especialidades para cuidar lo que más
+                    importa.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="service-icon"><i class="bi bi-activity"></i></div>
+                        <h5 class="fw-bold mt-2">Emergencias 24/7</h5>
+                        <p class="text-secondary">Atención inmediata con urgenciólogos y equipos de última generación.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="service-icon"><i class="bi bi-heart"></i></div>
+                        <h5 class="fw-bold mt-2">Cardiología</h5>
+                        <p class="text-secondary">Prevención, diagnóstico y tratamientos cardiovasculares avanzados.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="service-icon"><i class="bi bi-person-standing"></i></div>
+                        <h5 class="fw-bold mt-2">Pediatría</h5>
+                        <p class="text-secondary">Cuidado especializado para bebés, niños y adolescentes.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="service-icon"><i class="bi bi-shield-plus"></i></div>
+                        <h5 class="fw-bold mt-2">Traumatología</h5>
+                        <p class="text-secondary">Fracturas, lesiones deportivas y rehabilitación física.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MÉDICOS -->
+        <section id="medicos" class="my-5 pt-4">
+            <div class="text-center text-md-start">
+                <h2 class="section-title">Nuestros Médicos Especialistas</h2>
+                <p class="text-secondary mb-4">Profesionales de alta calidad, comprometidos con tu salud.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="doctor-img-placeholder"><i class="bi bi-person-circle"></i></div>
+                        <h5 class="fw-bold mb-1">Dra. Laura Méndez</h5>
+                        <p class="text-primary fw-semibold">Cardiología Clínica</p>
+                        <small class="text-secondary">15 años de experiencia en hipertensión.</small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="doctor-img-placeholder"><i class="bi bi-person-bounding-box"></i></div>
+                        <h5 class="fw-bold mb-1">Dr. Carlos Rivas</h5>
+                        <p class="text-primary fw-semibold">Traumatología</p>
+                        <small class="text-secondary">Cirugía artroscópica y medicina deportiva.</small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="doctor-img-placeholder"><i class="bi bi-person-vcard"></i></div>
+                        <h5 class="fw-bold mb-1">Dra. Sofía Villanueva</h5>
+                        <p class="text-primary fw-semibold">Pediatría</p>
+                        <small class="text-secondary">Atención neonatal y desarrollo infantil.</small>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card card-hover h-100 p-3 text-center">
+                        <div class="doctor-img-placeholder"><i class="bi bi-person-walking"></i></div>
+                        <h5 class="fw-bold mb-1">Dr. Javier Peña</h5>
+                        <p class="text-primary fw-semibold">Medicina Interna</p>
+                        <small class="text-secondary">Enfermedades complejas y atención integral.</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESEÑAS -->
+        <section id="reseñas" class="my-5 pt-4">
+            <div class="text-center text-md-start">
+                <h2 class="section-title">Lo que dicen nuestros pacientes</h2>
+                <p class="text-secondary mb-4">Más de 1000 testimonios que avalan nuestra calidad humana.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="reseña-card p-4 h-100 shadow-sm">
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                            class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                            class="bi bi-star-fill text-warning"></i>
+                        <p class="mt-3 fst-italic">"Excelente atención, el Dr. Rivas me atendió con mucha empatía."</p>
+                        <div class="mt-2 fw-bold">— María Gómez</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="reseña-card p-4 h-100 shadow-sm">
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                            class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                            class="bi bi-star-half text-warning"></i>
+                        <p class="mt-3 fst-italic">"La Dra. Méndez me salvó la vida. Muy agradecido."</p>
+                        <div class="mt-2 fw-bold">— Roberto Díaz</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="reseña-card p-4 h-100 shadow-sm">
+                        <i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                            class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i
+                            class="bi bi-star-fill text-warning"></i>
+                        <p class="mt-3 fst-italic">"Atención cálida con mi hijo, excelentes instalaciones."</p>
+                        <div class="mt-2 fw-bold">— Carolina Flores</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROMOCIONES -->
+        <section id="promociones" class="my-5 pt-4">
+            <div class="text-center text-md-start">
+                <h2 class="section-title">Promociones vigentes</h2>
+                <p class="text-secondary mb-4">Aprovecha planes especiales y descuentos por tiempo limitado.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Checkeo Premium <span class="promo-badge">-30%</span></h5>
+                            <p class="card-text">Evaluación médica completa: laboratorio, cardiología, nutrición.</p>
+                            <p class="text-primary fw-bold">Antes $250 <span class="text-success">Ahora $175</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Plan Sonrisa Sana <span class="promo-badge">2x1</span></h5>
+                            <p class="card-text">Consulta odontológica + limpieza dental al 50%.</p>
+                            <p class="text-primary fw-bold">Desde $40</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Descuento Familiar <span class="promo-badge">15% OFF</span>
+                            </h5>
+                            <p class="card-text">Afiliación de 3 o más miembros en medicina general.</p>
+                            <p class="text-primary fw-bold">Válido hasta diciembre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HISTORIA, MISIÓN Y VISIÓN -->
+        <section id="historia" class="my-5 pt-4">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="bg-white p-4 rounded-4 shadow-sm">
+                        <h3 class="fw-bold text-primary"><i class="bi bi-bank2"></i> Nuestra Historia</h3>
+                        <p class="text-secondary">Fundado en 1992 por el Dr. Enrique Sano, comenzó como una pequeña
+                            clínica familiar. Hoy es un hospital de alta complejidad con tecnología robótica y más de
+                            200 especialistas.</p>
+                        <h4 class="fw-bold mt-4">Misión</h4>
+                        <p>Proporcionar servicios de salud integrales, accesibles y humanizados.</p>
+                        <h4 class="fw-bold mt-3">Visión</h4>
+                        <p>Ser el hospital líder en innovación médica de Latinoamérica.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-primary bg-opacity-10 p-4 rounded-4 text-center">
+                        <i class="bi bi-trophy display-1 text-primary"></i>
+                        <p class="mt-3 fw-semibold">+30 años cuidando de tu familia</p>
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <h2 class="fw-bold">120k+</h2><span>Pacientes</span>
+                            </div>
+                            <div class="col-6">
+                                <h2 class="fw-bold">45+</h2><span>Especialidades</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESERVAS -->
+        <section id="reservas" class="my-5 pt-4 pb-5">
+            <div class="text-center mb-4">
+                <h2 class="section-title text-center d-inline-block">Reserva tu cita</h2>
+                <p class="text-secondary mt-3">Solicita una consulta o procedimiento. Te confirmaremos pronto.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <div class="reserva-form p-4 p-md-5">
+                        <form id="formReserva">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Nombre completo</label>
+                                    <input type="text" class="form-control" id="nombreReserva" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="emailReserva" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Teléfono</label>
+                                    <input type="tel" class="form-control" id="telefonoReserva" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Especialidad</label>
+                                    <select class="form-select" id="especialidadReserva" required>
+                                        <option value="">Selecciona especialidad</option>
+                                        <option>Cardiología</option>
+                                        <option>Pediatría</option>
+                                        <option>Traumatología</option>
+                                        <option>Medicina General</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Fecha preferente</label>
+                                    <input type="date" class="form-control" id="fechaReserva" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-semibold">Horario</label>
+                                    <select class="form-select" id="horarioReserva">
+                                        <option>09:00 - 10:00</option>
+                                        <option>10:00 - 11:00</option>
+                                        <option>11:00 - 12:00</option>
+                                        <option>15:00 - 16:00</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit"
+                                        class="btn btn-primary w-100 py-2 rounded-pill fw-bold">Solicitar
+                                        Reserva</button>
+                                </div>
+                                <div id="mensajeConfirmacion" class="alert alert-success mt-3 d-none"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="pt-5 pb-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-white"><i class="bi bi-heart-pulse-fill me-2"></i>Hospital Dr. Sano</h5>
+                    <p class="small">Comprometidos con tu salud y bienestar.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6 class="text-white">Contacto</h6>
+                    <ul class="list-unstyled small">
+                        <li><i class="bi bi-geo-alt"></i> Av. Salud 123, Santiago, Chile</li>
+                        <li><i class="bi bi-telephone"></i> +56 2 2555 1234</li>
+                        <li><i class="bi bi-envelope"></i> contacto@dr-sano.cl</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h6 class="text-white">Horario</h6>
+                    <p class="small">Lunes a Viernes: 08:00 - 20:00<br>Emergencias: 24/7</p>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="text-center small">© 2025 Hospital Dr. Sano - Todos los derechos reservados.</div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Personalizado -->
+    <script src="script.js"></script>
+</body>
+
+</html>
